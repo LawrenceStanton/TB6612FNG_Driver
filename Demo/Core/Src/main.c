@@ -92,17 +92,20 @@ int main(void)
   /* USER CODE BEGIN 2 */
   // NOTE: Definitions made on user labels from Code Generator
 
+  // Constructing motorA pin structure.
   TB6612FNG_Motor motorA = {
 		  .MOTOR = TB6612FNG_Motor_A,
 		  .I1 = &(TB6612FNG_Pin){ .Port = AI1_GPIO_Port, .Pin = AI1_Pin },
 		  .I2 = &(TB6612FNG_Pin){ .Port = AI2_GPIO_Port, .Pin = AI2_Pin },
 		  .TIMER = &(TB6612FNG_Timer){ .htim = &htim3, .channel = TIM_CHANNEL_4}
   };
+  // Assigning motorB to motorA (single motor mode)
   TB6612FNG_Motor motorB = motorA;
 
+  // Constructing standby pin structure.
   TB6612FNG_Pin stby = { .Port = STBY_GPIO_Port, .Pin = STBY_Pin };
 
-
+  // Initializing
   setupTB6612FNG(&htim3, &motorA, &motorB, &stby);
   /* USER CODE END 2 */
 
@@ -112,8 +115,9 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
+	  // Every loop motor forward for 0.5s, stop for 0.5s, repeat.
 	  startTB6612FNG();
-	  motorState(&motorA, REVERSE);
+	  motorState(&motorA, FORWARD);
 	  setMotorDutyCycle(&motorA, 0.5);
 	  HAL_Delay(5E3);
 	  stopTB6612FNG();
