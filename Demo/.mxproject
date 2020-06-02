@@ -9,17 +9,17 @@ CDefines=USE_HAL_DRIVER;STM32F051x8;USE_HAL_DRIVER;USE_HAL_DRIVER;
 [PreviousGenFiles]
 AdvancedFolderStructure=true
 HeaderFileListSize=3
-HeaderFiles#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Inc/stm32f0xx_it.h
-HeaderFiles#1=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Inc/stm32f0xx_hal_conf.h
-HeaderFiles#2=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Inc/main.h
+HeaderFiles#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Inc/stm32f0xx_it.h
+HeaderFiles#1=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Inc/stm32f0xx_hal_conf.h
+HeaderFiles#2=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Inc/main.h
 HeaderFolderListSize=1
-HeaderPath#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Inc
+HeaderPath#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Inc
 HeaderFiles=;
 SourceFileListSize=3
-SourceFiles#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Src/stm32f0xx_it.c
-SourceFiles#1=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Src/stm32f0xx_hal_msp.c
-SourceFiles#2=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Src/main.c
+SourceFiles#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Src/stm32f0xx_it.c
+SourceFiles#1=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Src/stm32f0xx_hal_msp.c
+SourceFiles#2=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Src/main.c
 SourceFolderListSize=1
-SourcePath#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG Driver/Demo/Core/Src
+SourcePath#0=/Users/lawrencestanton/OneDrive - University of Cape Town/Engineering/Other Projects/TB6612FNG_Driver/Demo/Core/Src
 SourceFiles=;
 
