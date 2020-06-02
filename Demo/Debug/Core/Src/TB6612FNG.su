@@ -1,0 +1,6 @@
+TB6612FNG.c:50:6:setupTB6612FNG	24	static
+TB6612FNG.c:65:6:startTB6612FNG	16	static
+TB6612FNG.c:80:6:stopTB6612FNG	24	static
+TB6612FNG.c:106:6:motorState	16	static
+TB6612FNG.c:116:6:setMotorDutyCycle	24	static
+TB6612FNG.c:125:13:setPWM	16	static
